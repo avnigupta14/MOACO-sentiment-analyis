@@ -28,7 +28,7 @@ Text-based sentiment analysis often suffers from high dimensionality and redunda
 | File | Description |
 |------|-------------|
 | `moaco_code.ipynb` | Main Jupyter notebook with MOACO implementation and sentiment analysis using LSTM |
-| `aco_baseline.ipynb` | Baseline notebook using standard ACO for feature selection |
+| `aco_code.ipynb` | Baseline notebook using standard ACO for feature selection |
 | `moaco_paper.pdf` | Final research paper detailing our methodology, experiments, and results |
 
 ---
