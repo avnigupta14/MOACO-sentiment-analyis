@@ -54,6 +54,6 @@ Text-based sentiment analysis often suffers from high dimensionality and redunda
 
 ---
 📂 Dataset
-We use the Sentiment140 dataset (1.6M tweets).
+- We use the Sentiment140 dataset (1.6M tweets).
 
 
