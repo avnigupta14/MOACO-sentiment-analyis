@@ -1,4 +1,4 @@
-# MOACO for Sentiment Analysis 🚀
+# MOACO for Sentiment Analysis 
 **Multi-Objective Ant Colony Optimization (MOACO) + LSTM** for real-time, large-scale sentiment classification on tweets.
 
 This repository contains the official implementation of our research paper:
@@ -23,18 +23,24 @@ Text-based sentiment analysis often suffers from high dimensionality and redunda
 
 ---
 
-## 🧠 Core Components
+## 📁 Files Included
 
-| Component        | Description |
-|------------------|-------------|
-| `moaco.py`       | MOACO feature selector with Pareto archive and adaptive pheromone updates |
-| `preprocess.py`  | Tweet cleaning, tokenization, stopword removal |
-| `embedding.py`   | Word2Vec generation & PCA dimensionality reduction |
-| `train_lstm.py`  | BiLSTM model with dropout, batch norm, Adam optimizer |
-| `evaluate.py`    | Metrics: Accuracy, Precision, Recall, F1-score, Confusion Matrix |
-| `notebooks/`     | Jupyter notebooks for experiment tracking & visualizations |
+| File | Description |
+|------|-------------|
+| `moaco_code.ipynb` | Main Jupyter notebook with MOACO implementation and sentiment analysis using LSTM |
+| `aco_baseline.ipynb` | Baseline notebook using standard ACO for feature selection |
+| `moaco_paper.pdf` | Final research paper detailing our methodology, experiments, and results |
 
 ---
+
+ ## 📊 Run the notebooks
+
+- Open moaco_code.ipynb in Jupyter or VS Code
+- Download the Sentiment140 dataset and place it in the same folder 
+- Follow the steps in the notebook for preprocessing, feature selection, and model training
+
+
+
 ## 📊 Results
 
 | Model | Accuracy | F1-Score | Features Used | Training Time |
