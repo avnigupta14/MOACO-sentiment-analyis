@@ -1,5 +1,5 @@
 # MOACO for Sentiment Analysis 
-**Implementation of MOACO‑based sentiment analysis with LSTM on 1.6M tweets (Sentiment140 dataset).
+Implementation of MOACO‑based sentiment analysis with LSTM on 1.6M tweets (Sentiment140 dataset).
 
 This repository contains the official implementation of our research paper:
 
