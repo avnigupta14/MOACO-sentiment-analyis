@@ -1,5 +1,5 @@
 # MOACO for Sentiment Analysis 
-**Multi-Objective Ant Colony Optimization (MOACO) + LSTM** for real-time, large-scale sentiment classification on tweets.
+**Implementation of MOACO‑based sentiment analysis with LSTM on 1.6M tweets (Sentiment140 dataset).
 
 This repository contains the official implementation of our research paper:
 
